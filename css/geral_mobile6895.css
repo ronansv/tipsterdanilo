@@ -1,0 +1,56 @@
+@media only scbox-sizingbox-sizingen and (max-width: 1080px){
+	nav {
+		justify-content: flex-start;
+		padding: 25px 0px;
+	}
+
+	nav ul{
+		display: none;
+		position: absolute;
+		flex-direction: column;
+		width: 300px;
+		background-color:#212121;
+		padding: 10px;
+		margin-top: 50px;
+	}
+
+	nav ul li a{
+		padding: 13px 0px;
+		font-size: 10pt;
+	}
+
+	nav .btnMenu{
+		height: 25px;
+		cursor: pointer;
+		display: block;
+		margin-right: auto;
+		margin-left: 10px;
+	}
+
+	nav .login{
+		margin-right: 10px;
+		height: 25px;
+	}
+
+	header .bloco_titulos .titulo1{
+		font-size: 14pt;
+		margin-top: 30px;
+	}
+
+	header .bloco_titulos .titulo2{
+		font-size: 76pt;
+		margin-top: -12px;
+	}
+
+	header .bloco_titulos .titulo3{
+		font-size: 28pt;
+		margin-top: -20px;
+	}
+
+	section.arquivo img{
+		width: 60%;
+		max-width: 400px;
+	}
+
+
+}
